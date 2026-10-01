@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="RdEnzkPEzfz-cx0h02a-">
+    <mxGraphModel dx="1346" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TITLE" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1;" value="DFD Уровень 1 — Dporbox (облачное хранилище)" vertex="1">
+          <mxGeometry height="30" width="420" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="&lt;div&gt;Пользователь&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EXT_PAY" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="&lt;div&gt;Платежная система&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="585" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-28" parent="1" style="ellipse;html=1;shapeInside=1;aspect=fixed;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;autosizeText=0;fontSize=12;convertToSvg=0;svgWhiteSpace=wrap;whiteSpace=wrap;" value="1. Аутентификация" vertex="1">
+          <mxGeometry height="100" width="140" x="280" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-26" parent="1" style="ellipse;html=1;shapeInside=1;aspect=fixed;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;autosizeText=0;fontSize=12;convertToSvg=0;svgWhiteSpace=wrap;whiteSpace=wrap;" value="2. Оформление подписки" vertex="1">
+          <mxGeometry height="100" width="140" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-25" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D1 База пользователей" vertex="1">
+          <mxGeometry height="60" width="180" x="560" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="P_UPLOAD" parent="1" style="ellipse;html=1;shapeInside=1;aspect=fixed;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;autosizeText=0;fontSize=12;convertToSvg=0;svgWhiteSpace=wrap;whiteSpace=wrap;" value="3. Загрузка файлов" vertex="1">
+          <mxGeometry height="100" width="140" x="280" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-30" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D2 Хранилище пользователя (файлы)" vertex="1">
+          <mxGeometry height="60" width="180" x="560" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="D3_STORE" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D3 Каталог файлов (метаданные)" vertex="1">
+          <mxGeometry height="60" width="180" x="560" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="P_SYNC" parent="1" style="ellipse;html=1;shapeInside=1;aspect=fixed;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;autosizeText=0;fontSize=12;convertToSvg=0;svgWhiteSpace=wrap;whiteSpace=wrap;" value="4. Синхронизация и скачивание" vertex="1">
+          <mxGeometry height="100" width="140" x="280" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="P_SHARE" parent="1" style="ellipse;html=1;shapeInside=1;aspect=fixed;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;autosizeText=0;fontSize=12;convertToSvg=0;svgWhiteSpace=wrap;whiteSpace=wrap;" value="5. Управление общим доступом" vertex="1">
+          <mxGeometry height="100" width="140" x="260" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-5" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;startArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-28" value="Логин/пароль / Токен сессии">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="410" />
+              <mxPoint x="180" y="410" />
+              <mxPoint x="180" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-13" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-26" value="ФИО, платежные данные">
+          <mxGeometry relative="1" x="0.1111" y="-45" as="geometry">
+            <mxPoint x="-5" y="20" as="offset" />
+            <Array as="points">
+              <mxPoint x="100" y="390" />
+              <mxPoint x="210" y="390" />
+              <mxPoint x="210" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-31" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="P_UPLOAD" value="Файлы для загрузки">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFD_E_USER_SYNC" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;startArrow=classic;" target="P_SYNC" value="Запрос / выдача файлов">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="520" />
+              <mxPoint x="210" y="520" />
+              <mxPoint x="210" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_USER_SHARE" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;startArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="P_SHARE" value="Запрос доступа / Общая ссылка">
+          <mxGeometry relative="1" x="0.1739" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="100" y="540" />
+              <mxPoint x="180" y="540" />
+              <mxPoint x="180" y="810" />
+            </Array>
+            <mxPoint x="180" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-8" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;startArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-25" value="Данные пользователя">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="190" />
+              <mxPoint x="490" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_9lOLvUSrGqKInnvEpZr-20" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;startArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-25" value="Данные подписки / Статус, тарифы">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="340" />
+              <mxPoint x="490" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_P2_PAY" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="EXT_PAY" value="Запрос оплаты">
+          <mxGeometry relative="1" x="0.0154" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="390" />
+              <mxPoint x="750" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_PAY_P2" edge="1" parent="1" source="EXT_PAY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-26" value="Подтверждение оплаты">
+          <mxGeometry relative="1" x="-0.029" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="770" y="150" />
+              <mxPoint x="770" y="400" />
+              <mxPoint x="350" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_P3_D2" edge="1" parent="1" source="P_UPLOAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-30" value="Файлы + метаданные">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFD_E_P3_D3" edge="1" parent="1" source="P_UPLOAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="D3_STORE" value="Метаданные (имя, версия, hash)">
+          <mxGeometry relative="1" x="0.0833" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="350" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_D2_SYNC" edge="1" parent="1" source="_9lOLvUSrGqKInnvEpZr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="P_SYNC" value="Файлы на выдачу">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_D3_SYNC" edge="1" parent="1" source="D3_STORE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;" target="P_SYNC" value="Метаданные для синхронизации">
+          <mxGeometry relative="1" x="-0.1304" y="22" as="geometry">
+            <mxPoint x="20" y="-12" as="offset" />
+            <Array as="points">
+              <mxPoint x="480" y="570" />
+              <mxPoint x="480" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_SHARE_D2" edge="1" parent="1" source="P_SHARE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;startArrow=classic;" target="_9lOLvUSrGqKInnvEpZr-30" value="Права доступа">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="810" />
+              <mxPoint x="760" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFD_E_SHARE_D3" edge="1" parent="1" source="P_SHARE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;" target="D3_STORE" value="Запись о ссылке">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="770" />
+              <mxPoint x="740" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
